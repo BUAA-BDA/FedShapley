@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc908499-2f06-45f8-8552-97f86055f352" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Tensorflow_FL$CustomizedTruncated.coverage" NAME="CustomizedTruncated Coverage Results" MODIFIED="1567213252450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedDefination.coverage" NAME="CustomizedDefination Coverage Results" MODIFIED="1567754773170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedGradientMixDistribution.coverage" NAME="CustomizedGradientMixDistribution Coverage Results" MODIFIED="1568203227044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_FL$test.coverage" NAME="test Coverage Results" MODIFIED="1567156017736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_FL$CustomizedTruncatedFor3Agents.coverage" NAME="CustomizedTruncatedFor3Agents Coverage Results" MODIFIED="1567211615707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedGradientDiffDistribution.coverage" NAME="CustomizedGradientDiffDistribution Coverage Results" MODIFIED="1568180990899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$generate_initial_model_para.coverage" NAME="generate_initial_model_para Coverage Results" MODIFIED="1569207719814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedDefinationDiffDistribution.coverage" NAME="CustomizedDefinationDiffDistribution Coverage Results" MODIFIED="1568467111081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedGradientPlusDiffDistribution.coverage" NAME="CustomizedGradientPlusDiffDistribution Coverage Results" MODIFIED="1568180146885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedTruncated.coverage" NAME="CustomizedTruncated Coverage Results" MODIFIED="1567317945438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedGradientPlus.coverage" NAME="CustomizedGradientPlus Coverage Results" MODIFIED="1567760039396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedGradientPlusMixDistribution.coverage" NAME="CustomizedGradientPlusMixDistribution Coverage Results" MODIFIED="1568203940100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$generateInitialModelPara.coverage" NAME="generateInitialModelPara Coverage Results" MODIFIED="1569037845481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedTruncatedSameDistribution.coverage" NAME="CustomizedTruncatedSameDistribution Coverage Results" MODIFIED="1568606090193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_FL$Customized.coverage" NAME="Customized Coverage Results" MODIFIED="1567083695326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$Same_Grad.coverage" NAME="Same_Grad Coverage Results" MODIFIED="1569054596322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$Same_GraPlus.coverage" NAME="Same_GraPlus Coverage Results" MODIFIED="1569054529765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$generate_mix_data.coverage" NAME="generate_mix_data Coverage Results" MODIFIED="1568774572006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$NN.coverage" NAME="NN Coverage Results" MODIFIED="1569141196553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$models_test.coverage" NAME="models_test Coverage Results" MODIFIED="1569143265127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../federated-master/federated-master/tensorflow_federated/python/examples/mnist" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$modelsExample.coverage" NAME="modelsExample Coverage Results" MODIFIED="1567414298588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$Weight_Grad_SameDis.coverage" NAME="Weight_Grad_SameDis Coverage Results" MODIFIED="1569166740600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$test.coverage" NAME="test Coverage Results" MODIFIED="1569056049043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedGradient.coverage" NAME="CustomizedGradient Coverage Results" MODIFIED="1567850649326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$generate_test_data.coverage" NAME="generate_test_data Coverage Results" MODIFIED="1569037458837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedDefinationWithWeights.coverage" NAME="CustomizedDefinationWithWeights Coverage Results" MODIFIED="1567850736759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$gradient_plus_shapley_value_analyze.coverage" NAME="gradient_plus_shapley_value_analyze Coverage Results" MODIFIED="1569064085652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedDefinationMixDistribution.coverage" NAME="CustomizedDefinationMixDistribution Coverage Results" MODIFIED="1569037965403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedTruncatedMixDistribution.coverage" NAME="CustomizedTruncatedMixDistribution Coverage Results" MODIFIED="1568203958049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedTruncatedDiffDistribution.coverage" NAME="CustomizedTruncatedDiffDistribution Coverage Results" MODIFIED="1568607118438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedDefinationSameDistribution.coverage" NAME="CustomizedDefinationSameDistribution Coverage Results" MODIFIED="1569037852092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$CustomizedGradientPlusSameDistribution.coverage" NAME="CustomizedGradientPlusSameDistribution Coverage Results" MODIFIED="1569048023228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_FL$MNIST.coverage" NAME="MNIST Coverage Results" MODIFIED="1567080124736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$Noise_GradPlus_SameDis.coverage" NAME="Noise_GradPlus_SameDis Coverage Results" MODIFIED="1569056206856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$NN_local.coverage" NAME="NN_local Coverage Results" MODIFIED="1569140511442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_FL$clearParms.coverage" NAME="clearParms Coverage Results" MODIFIED="1567157609647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$Mix_GradPlus.coverage" NAME="Mix_GradPlus Coverage Results" MODIFIED="1569054503961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_FL$CustomizedDefination.coverage" NAME="CustomizedDefination Coverage Results" MODIFIED="1567172036601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorflowFL$Mix_Def.coverage" NAME="Mix_Def Coverage Results" MODIFIED="1569208559860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="592163027">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="14" />
+          <entry key="txt" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="10" />
+          <entry key="py" value="6123" />
+          <entry key="txt" value="113" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="Python" value="6123" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="9606877">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="3" />
+          <entry key="py" value="345" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="192" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="193" />
+          <entry key="Python" value="345" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="109" />
+          <entry key="py" value="21620" />
+          <entry key="sh" value="56" />
+          <entry key="txt" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="217" />
+          <entry key="Python" value="21620" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Mix_Def.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mix_Def.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iter_num</find>
+      <find>ModelValuation</find>
+      <find>data_num</find>
+      <find>multi</find>
+      <find>5842</find>
+      <find>gradientsplus_models.txt</find>
+      <find />
+      <find>train_with_gradient_and_valuation</find>
+      <find>SERVER_MODEL_TYPE</find>
+      <find>L3_drop</find>
+      <find>eager</find>
+      <find>get_data_for_federated_agents</find>
+      <find>(&quot;test_labels.txt</find>
+      <find>(&quot;test_images1.</find>
+      <find>random</find>
+      <find>random_label</find>
+      <find>random_index</find>
+      <find>TOD</find>
+      <find>TODO</find>
+      <find>print</find>
+      <find>main</find>
+      <find>RoundNum</find>
+      <find>with</find>
+      <find>open</find>
+      <find>15</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\t</replace>
+      <replace>all_samples.append(sample[sample_index])</replace>
+      <replace />
+      <replace>gradientplus_models.txt</replace>
+      <replace>(&quot;test_labels_.txt</replace>
+      <replace>(&quot;test_images1_.</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ShapleyM_g.txt" />
+        <option value="$PROJECT_DIR$/ShapleyM_h.txt" />
+        <option value="$PROJECT_DIR$/ShapleyM_i.txt" />
+        <option value="$PROJECT_DIR$/ShapleyM_i0.95.txt" />
+        <option value="$PROJECT_DIR$/CustomizedNNSameDistribution.py" />
+        <option value="$PROJECT_DIR$/CustomizedDefinationDiffDistribution.py" />
+        <option value="$PROJECT_DIR$/generate_mix_data.py" />
+        <option value="$PROJECT_DIR$/CustomizedTruncatedSameDistribution.py" />
+        <option value="$PROJECT_DIR$/CustomizedGradientSameDistribution.py" />
+        <option value="$PROJECT_DIR$/CustomizedDefinationMixDistribution.py" />
+        <option value="$PROJECT_DIR$/generate_test_data.py" />
+        <option value="$PROJECT_DIR$/generateInitialModelPara.py" />
+        <option value="$PROJECT_DIR$/CustomizedDefinationSameDistribution.py" />
+        <option value="$PROJECT_DIR$/Noise_Trunc_SameDis.py" />
+        <option value="$PROJECT_DIR$/CustomizedGradientMixDistribution.py" />
+        <option value="$PROJECT_DIR$/CustomizedTruncatedMixDistribution.py" />
+        <option value="$PROJECT_DIR$/CustomizedGradientPlusSameDistribution.py" />
+        <option value="$PROJECT_DIR$/CustomizedGradientPlusMixDistribution.py" />
+        <option value="$PROJECT_DIR$/Weight_Trunc_SameDis.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/ShapleyM_a.txt" />
+        <option value="$PROJECT_DIR$/NN_local.py" />
+        <option value="$PROJECT_DIR$/NN.py" />
+        <option value="$PROJECT_DIR$/../federated-master/federated-master/tensorflow_federated/python/examples/mnist/models.py" />
+        <option value="$PROJECT_DIR$/../federated-master/federated-master/tensorflow_federated/python/examples/mnist/models_test.py" />
+        <option value="$PROJECT_DIR$/Weight_Grad_SameDis.py" />
+        <option value="$PROJECT_DIR$/Weight_GradPlus_SameDis.py" />
+        <option value="$PROJECT_DIR$/Same_GraPlus.py" />
+        <option value="$PROJECT_DIR$/Noise_GradPlus_SameDis.py" />
+        <option value="$PROJECT_DIR$/Noise_Grad_SameDis.py" />
+        <option value="$PROJECT_DIR$/Noise_Def_SameDis.py" />
+        <option value="$PROJECT_DIR$/Same_Def.py" />
+        <option value="$PROJECT_DIR$/Weight_Def_SameDis.py" />
+        <option value="$PROJECT_DIR$/gradient_plus_shapley_value_analyze.py" />
+        <option value="$PROJECT_DIR$/Weight_Def.py" />
+        <option value="$PROJECT_DIR$/_CustomizedGradientDiffDistribution.py" />
+        <option value="$PROJECT_DIR$/_CustomizedGradientPlusDiffDistribution.py" />
+        <option value="$PROJECT_DIR$/_CustomizedTruncatedDiffDistribution.py" />
+        <option value="$PROJECT_DIR$/_CustomizedTruncatedFor3Agents.py" />
+        <option value="$PROJECT_DIR$/_DefinationDiffDistribution.py" />
+        <option value="$PROJECT_DIR$/Mix_Def.py" />
+        <option value="$PROJECT_DIR$/Mix_Grad.py" />
+        <option value="$PROJECT_DIR$/Mix_GradPlus.py" />
+        <option value="$PROJECT_DIR$/Mix_Trunc.py" />
+        <option value="$PROJECT_DIR$/Noise_GradPlus.py" />
+        <option value="$PROJECT_DIR$/Noise_Trunc.py" />
+        <option value="$PROJECT_DIR$/Noise_Grad.py" />
+        <option value="$PROJECT_DIR$/Noise_Def.py" />
+        <option value="$PROJECT_DIR$/generate_initial_model_para.py" />
+        <option value="$PROJECT_DIR$/Same_Grad.py" />
+        <option value="$PROJECT_DIR$/Mix_OR.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2586" />
+    <option name="height" value="1386" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TensorflowFL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorflowFL" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/python3/env/FML_tf2.0" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\实验相关\TensorflowFL" />
+      <recent name="D:\实验相关\Tensorflow FL" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Mix_OR">
+    <configuration name="Mix_OR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow FL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mix_OR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Noise_Def" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow FL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Noise_Def.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Noise_Grad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow FL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Noise_Grad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Same_Grad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow FL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Same_Grad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="generate_initial_model_para" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow FL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_initial_model_para.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.generate_initial_model_para" />
+      <item itemvalue="Python.Noise_Grad" />
+      <item itemvalue="Python.Noise_Def" />
+      <item itemvalue="Python.Same_Grad" />
+      <item itemvalue="Python.Mix_OR" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Mix_OR" />
+        <item itemvalue="Python.Same_Grad" />
+        <item itemvalue="Python.Noise_Grad" />
+        <item itemvalue="Python.Noise_Def" />
+        <item itemvalue="Python.generate_initial_model_para" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc908499-2f06-45f8-8552-97f86055f352" name="Default Changelist" comment="" />
+      <created>1566978150400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566978150400</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1646778" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3277405" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24157304" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47733712" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Noise_Trunc.py" />
+    <entry file="file://$PROJECT_DIR$/CustomizedGradientPlusSameDistribution.py" />
+    <entry file="file://$PROJECT_DIR$/Weight_Trunc_SameDis.py" />
+    <entry file="file://$PROJECT_DIR$/CustomizedGradientPlusDiffDistribution.py" />
+    <entry file="file://$PROJECT_DIR$/CustomizedGradientPlusMixDistribution.py" />
+    <entry file="file://$PROJECT_DIR$/Same_Trunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradientplus_models.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8096" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bias_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bias_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weights_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/ShapleyM_c0.95.txt" />
+    <entry file="file://$PROJECT_DIR$/Same_NN.py" />
+    <entry file="file://$PROJECT_DIR$/../federated-master/federated-master/tensorflow_federated/python/examples/mnist/models_test.py" />
+    <entry file="file://$PROJECT_DIR$/../federated-master/federated-master/tensorflow_federated/python/examples/mnist/models.py" />
+    <entry file="file://$PROJECT_DIR$/NN_local.py" />
+    <entry file="file://$PROJECT_DIR$/ShapleyM_a.txt" />
+    <entry file="file://$PROJECT_DIR$/NN.py" />
+    <entry file="file://$PROJECT_DIR$/Weight_Grad_SameDis.py" />
+    <entry file="file://$PROJECT_DIR$/Weight_GradPlus_SameDis.py" />
+    <entry file="file://$PROJECT_DIR$/Same_GraPlus.py" />
+    <entry file="file://$PROJECT_DIR$/Noise_GradPlus_SameDis.py" />
+    <entry file="file://$PROJECT_DIR$/Noise_Grad_SameDis.py" />
+    <entry file="file://$PROJECT_DIR$/Weight_Def_SameDis.py" />
+    <entry file="file://$PROJECT_DIR$/Same_Def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="294" column="19" selection-start-line="294" selection-start-column="19" selection-end-line="294" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noise_Def_SameDis.py" />
+    <entry file="file://$PROJECT_DIR$/Weight_Grad.py" />
+    <entry file="file://$PROJECT_DIR$/gradient_plus_shapley_value_analyze.py" />
+    <entry file="file://$PROJECT_DIR$/Weight_GradPlus.py" />
+    <entry file="file://$PROJECT_DIR$/Weight_Def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2024">
+          <caret line="163" column="26" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_CustomizedGradientDiffDistribution.py" />
+    <entry file="file://$PROJECT_DIR$/_CustomizedGradientPlusDiffDistribution.py" />
+    <entry file="file://$PROJECT_DIR$/_CustomizedTruncatedDiffDistribution.py" />
+    <entry file="file://$PROJECT_DIR$/_CustomizedTruncatedFor3Agents.py" />
+    <entry file="file://$PROJECT_DIR$/_DefinationDiffDistribution.py" />
+    <entry file="file://$PROJECT_DIR$/Mix_Grad.py" />
+    <entry file="file://$PROJECT_DIR$/Mix_GradPlus.py" />
+    <entry file="file://$PROJECT_DIR$/Mix_Trunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2904">
+          <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2424">
+          <caret line="1" column="421" lean-forward="true" selection-start-line="1" selection-start-column="421" selection-end-line="1" selection-end-column="421" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initial_model_parameters.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noise_GradPlus.py" />
+    <entry file="file://$PROJECT_DIR$/generate_initial_model_para.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noise_Def.py" />
+    <entry file="file://$PROJECT_DIR$/Noise_Grad.py" />
+    <entry file="file://$PROJECT_DIR$/Noise_Trunc.py" />
+    <entry file="file://$PROJECT_DIR$/Same_Grad.py" />
+    <entry file="file://$PROJECT_DIR$/Same_OR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mix_OR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mix_Def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
